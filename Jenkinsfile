@@ -25,7 +25,7 @@ stages {
         stage('Push') {
 
         			steps {
-        				sh 'docker push test/mytest:113'
+        				sh 'docker push tveerujava1986/test:mytest'
         			}
         		}
         stage('Test') {
