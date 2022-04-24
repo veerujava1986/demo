@@ -3,7 +3,9 @@ pipeline {
 stages {
         stage('Build') {
             steps {
-                echo 'Building..'}
+                echo 'Building..'
+                sd 'pwd'
+                }
         }
         stage('Test') {
             steps {
