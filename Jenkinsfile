@@ -50,6 +50,7 @@ stages {
     post {
     		always {
     			sh 'docker logout'
+    			sh 'kubectl get ns'
     		}
     	}
 }
