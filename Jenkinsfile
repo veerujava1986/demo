@@ -7,6 +7,8 @@ stages {
                 sh 'pwd'
                 sh 'ls'
                 sh 'docker version'
+                sh 'sudo docker build -t mytest:112 .'
+
                 }
         }
         stage('Test') {
