@@ -6,7 +6,7 @@ stages {
                 echo 'Building..'
                 sh 'pwd'
                 sh 'ls'
-                sh 'docker build -t mytest-006 .'
+                sh 'docker version'
                 }
         }
         stage('Test') {
