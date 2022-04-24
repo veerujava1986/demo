@@ -12,7 +12,6 @@
         <module name="m2" />
         <module name="m3" />
         <module name="GateWay" />
-        <module name="root" />
         <module name="m4" />
         <module name="EurekaClient" />
         <module name="ssl" />
@@ -45,7 +44,7 @@
       <module name="m3" options="-parameters" />
       <module name="m4" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
-      <module name="root" options="-parameters" />
+      <module name="root" options="" />
       <module name="ssl" options="-parameters" />
     </option>
   </component>
