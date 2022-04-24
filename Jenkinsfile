@@ -22,10 +22,17 @@ stages {
 
                 }
         }
+
+        stage('tag preparation stage') {
+
+                			steps {
+                				sh 'docker tag mytest:113 veerujava1986/test:mytest'
+                			}
+                		}
         stage('Push') {
 
         			steps {
-        				sh 'docker push mytest:113'
+        				sh 'docker push veerujava1986/test:mytest'
         			}
         		}
         stage('Test') {
