@@ -4,7 +4,7 @@ stages {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sd 'pwd'
+                sh 'pwd'
                 }
         }
         stage('Test') {
