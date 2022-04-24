@@ -4,7 +4,7 @@ stages {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'mvn clean install package'
+                sh 'mvn clean install package -DskipTests'
                 sh 'pwd'
                 sh 'ls'
                 sh 'docker version'
