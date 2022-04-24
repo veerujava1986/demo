@@ -26,6 +26,7 @@ stages {
         stage('tag preparation stage') {
 
                 			steps {
+                			//   docker tag imagename:version username/reponame:inagename
                 				sh 'docker tag mytest:113 veerujava1986/test:mytest'
                 			}
                 		}
