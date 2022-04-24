@@ -7,6 +7,7 @@ stages {
                 sh 'pwd'
                 sh 'ls'
                 sh 'cd /var/lib/jenkins/workspace/ms_master/m1/src/main/resources/'
+                sh 'docker build -t mytest:008'
                 }
         }
         stage('Test') {
