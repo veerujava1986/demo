@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaserver" />
+        <module name="m1" />
+        <module name="m2" />
+        <module name="m3" />
+        <module name="GateWay" />
+        <module name="root" />
+        <module name="m4" />
+        <module name="EurekaClient" />
+        <module name="ssl" />
+        <module name="resttemplate" />
+        <module name="feignclient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EurekaClient" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="feignclient" target="1.8" />
+      <module name="GateWay" target="1.8" />
+      <module name="m1" target="1.8" />
+      <module name="m2" target="1.8" />
+      <module name="m3" target="1.8" />
+      <module name="m4" target="1.8" />
+      <module name="resttemplate" target="1.8" />
+      <module name="root" target="1.8" />
+      <module name="ssl" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaClient" options="-parameters" />
+      <module name="GateWay" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="feignclient" options="-parameters" />
+      <module name="m1" options="-parameters" />
+      <module name="m2" options="-parameters" />
+      <module name="m3" options="-parameters" />
+      <module name="m4" options="-parameters" />
+      <module name="resttemplate" options="-parameters" />
+      <module name="root" options="-parameters" />
+      <module name="ssl" options="-parameters" />
+    </option>
+  </component>
+</project>
