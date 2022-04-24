@@ -42,7 +42,9 @@ stages {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'}
+                echo 'Deploying....'
+                sh 'kubectl get ns'
+                }
         }
     }
 
@@ -50,7 +52,7 @@ stages {
     post {
     		always {
     			sh 'docker logout'
-    			sh 'kubectl get ns'
+
     		}
     	}
 }
