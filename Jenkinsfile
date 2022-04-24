@@ -22,6 +22,12 @@ stages {
 
                 }
         }
+        stage('Push') {
+
+        			steps {
+        				sh 'docker push test/mytest:113'
+        			}
+        		}
         stage('Test') {
             steps {
                 echo 'Testing..'}
@@ -31,5 +37,12 @@ stages {
                 echo 'Deploying....'}
         }
     }
+
+
+    post {
+    		always {
+    			sh 'docker logout'
+    		}
+    	}
 }
 
