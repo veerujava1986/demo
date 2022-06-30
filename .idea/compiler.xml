@@ -7,38 +7,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaserver" />
+        <module name="keycloak" />
         <module name="m1" />
         <module name="m2" />
         <module name="m3" />
-        <module name="GateWay" />
         <module name="m4" />
         <module name="EurekaClient" />
         <module name="ssl" />
+        <module name="eurekaserver" />
+        <module name="Mockito" />
+        <module name="GateWay" />
         <module name="resttemplate" />
         <module name="feignclient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EurekaClient" target="1.8" />
-      <module name="eurekaserver" target="1.8" />
-      <module name="feignclient" target="1.8" />
-      <module name="GateWay" target="1.8" />
-      <module name="m1" target="1.8" />
-      <module name="m2" target="1.8" />
-      <module name="m3" target="1.8" />
-      <module name="m4" target="1.8" />
-      <module name="resttemplate" target="1.8" />
-      <module name="root" target="1.8" />
-      <module name="ssl" target="1.8" />
+      <module name="AnnotationsExamples" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AnnotationsExamples" options="-parameters" />
       <module name="EurekaClient" options="-parameters" />
       <module name="GateWay" options="-parameters" />
+      <module name="Mockito" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feignclient" options="-parameters" />
+      <module name="keycloak" options="-parameters" />
       <module name="m1" options="-parameters" />
       <module name="m2" options="-parameters" />
       <module name="m3" options="-parameters" />
