@@ -61,7 +61,7 @@
 		<module>m1</module>
 		<module>m2</module>
 		<module>m3</module>
-        <module>Mockito</module>
-        <module>AnnotationsExamples</module>
+		<module>Mockito</module>
+        <module>Java-8-features</module>
     </modules>
 </project>

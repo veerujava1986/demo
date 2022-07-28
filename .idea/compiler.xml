@@ -17,12 +17,14 @@
         <module name="eurekaserver" />
         <module name="Mockito" />
         <module name="GateWay" />
+        <module name="Java-8-features" />
         <module name="resttemplate" />
         <module name="feignclient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AnnotationsExamples" target="1.8" />
+      <module name="jwt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -30,9 +32,11 @@
       <module name="AnnotationsExamples" options="-parameters" />
       <module name="EurekaClient" options="-parameters" />
       <module name="GateWay" options="-parameters" />
+      <module name="Java-8-features" options="-parameters" />
       <module name="Mockito" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feignclient" options="-parameters" />
+      <module name="jwt" options="-parameters" />
       <module name="keycloak" options="-parameters" />
       <module name="m1" options="-parameters" />
       <module name="m2" options="-parameters" />
