@@ -16,11 +16,15 @@
         <option value="$PROJECT_DIR$/GateWay/pom.xml" />
         <option value="$PROJECT_DIR$/ssl/pom.xml" />
         <option value="$PROJECT_DIR$/keycloak/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-google/pom.xml" />
+        <option value="$PROJECT_DIR$/authorizationserver/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/AnnotationsExamples/pom.xml" />
+        <option value="$PROJECT_DIR$/api/pom.xml" />
       </set>
     </option>
   </component>

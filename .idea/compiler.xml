@@ -13,6 +13,8 @@
         <module name="m3" />
         <module name="m4" />
         <module name="EurekaClient" />
+        <module name="springsecurity" />
+        <module name="authorizationserver" />
         <module name="ssl" />
         <module name="eurekaserver" />
         <module name="Mockito" />
@@ -24,6 +26,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AnnotationsExamples" target="1.8" />
+      <module name="api" target="1.8" />
       <module name="jwt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -34,6 +37,8 @@
       <module name="GateWay" options="-parameters" />
       <module name="Java-8-features" options="-parameters" />
       <module name="Mockito" options="-parameters" />
+      <module name="api" options="-parameters" />
+      <module name="authorizationserver" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feignclient" options="-parameters" />
       <module name="jwt" options="-parameters" />
@@ -44,6 +49,7 @@
       <module name="m4" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="root" options="" />
+      <module name="springsecurity" options="-parameters" />
       <module name="ssl" options="-parameters" />
     </option>
   </component>
