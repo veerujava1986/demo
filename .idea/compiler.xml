@@ -19,6 +19,7 @@
         <module name="eurekaserver" />
         <module name="Mockito" />
         <module name="GateWay" />
+        <module name="HttpClient" />
         <module name="Java-8-features" />
         <module name="resttemplate" />
         <module name="feignclient" />
@@ -35,6 +36,7 @@
       <module name="AnnotationsExamples" options="-parameters" />
       <module name="EurekaClient" options="-parameters" />
       <module name="GateWay" options="-parameters" />
+      <module name="HttpClient" options="-parameters" />
       <module name="Java-8-features" options="-parameters" />
       <module name="Mockito" options="-parameters" />
       <module name="api" options="-parameters" />

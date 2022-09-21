@@ -63,5 +63,6 @@
 		<module>m3</module>
 		<module>Mockito</module>
         <module>Java-8-features</module>
+        <module>HttpClient</module>
     </modules>
 </project>
