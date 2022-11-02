@@ -19,11 +19,19 @@
         <option value="$PROJECT_DIR$/springsecurity/pom.xml" />
         <option value="$PROJECT_DIR$/oauth2-google/pom.xml" />
         <option value="$PROJECT_DIR$/authorizationserver/pom.xml" />
+        <option value="$PROJECT_DIR$/JWTReaderdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/m5/pom.xml" />
+        <option value="$PROJECT_DIR$/Temporary/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataJPA_H2-Database/pom.xml" />
+        <option value="$PROJECT_DIR$/jetty-server-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Singleton-threadsafe/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-producer-springboot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/AnnotationsExamples/pom.xml" />
+        <option value="$PROJECT_DIR$/JWTReader/pom.xml" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
       </set>
     </option>

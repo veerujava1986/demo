@@ -1,0 +1,5 @@
+need to add @Component annotation on runner class
+
+need to add noargument constructor into entity class
+
+no need to implement serialization interfacser

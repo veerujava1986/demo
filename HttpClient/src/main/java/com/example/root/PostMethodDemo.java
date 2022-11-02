@@ -21,7 +21,9 @@ public class PostMethodDemo {
     public static void main(String[] args) {
 
         try {
-            String result = sendPOST("https://httpbin.org/post");
+            //String result = sendPOST("https://httpbin.org/post");
+            String result = sendPOST("http://localhost:8080/realms/indiglo/protocol/openid-connect/token");
+            //
             System.out.println(result);
         } catch (IOException e) {
             e.printStackTrace();
@@ -36,9 +38,10 @@ public class PostMethodDemo {
 
         // add request parameters or form parameters
         List<NameValuePair> urlParameters = new ArrayList<>();
-        urlParameters.add(new BasicNameValuePair("username", "abc"));
-        urlParameters.add(new BasicNameValuePair("password", "123"));
-        urlParameters.add(new BasicNameValuePair("custom", "secret"));
+        urlParameters.add(new BasicNameValuePair("grant_type", "password"));
+        urlParameters.add(new BasicNameValuePair("username", "user1"));
+        urlParameters.add(new BasicNameValuePair("password", "user1"));
+        urlParameters.add(new BasicNameValuePair("client_id", "user1"));
 
         post.setEntity(new UrlEncodedFormEntity(urlParameters));
 

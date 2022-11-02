@@ -10,16 +10,23 @@
         <module name="keycloak" />
         <module name="m1" />
         <module name="m2" />
+        <module name="SpringDataJPA_H2-Database" />
         <module name="m3" />
         <module name="m4" />
+        <module name="m5" />
         <module name="EurekaClient" />
+        <module name="jetty-server-demo" />
         <module name="springsecurity" />
         <module name="authorizationserver" />
+        <module name="kafka-producer-springboot" />
         <module name="ssl" />
         <module name="eurekaserver" />
+        <module name="JWTReaderdemo" />
+        <module name="Temporary" />
         <module name="Mockito" />
         <module name="GateWay" />
         <module name="HttpClient" />
+        <module name="Singleton-threadsafe" />
         <module name="Java-8-features" />
         <module name="resttemplate" />
         <module name="feignclient" />
@@ -29,6 +36,8 @@
       <module name="AnnotationsExamples" target="1.8" />
       <module name="api" target="1.8" />
       <module name="jwt" target="1.8" />
+      <module name="JWTReader" target="1.8" />
+      <module name="mvc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -37,18 +46,27 @@
       <module name="EurekaClient" options="-parameters" />
       <module name="GateWay" options="-parameters" />
       <module name="HttpClient" options="-parameters" />
+      <module name="JWTReader" options="-parameters" />
+      <module name="JWTReaderdemo" options="-parameters" />
       <module name="Java-8-features" options="-parameters" />
       <module name="Mockito" options="-parameters" />
+      <module name="Singleton-threadsafe" options="-parameters" />
+      <module name="SpringDataJPA_H2-Database" options="-parameters" />
+      <module name="Temporary" options="-parameters" />
       <module name="api" options="-parameters" />
       <module name="authorizationserver" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feignclient" options="-parameters" />
+      <module name="jetty-server-demo" options="-parameters" />
       <module name="jwt" options="-parameters" />
+      <module name="kafka-producer-springboot" options="-parameters" />
       <module name="keycloak" options="-parameters" />
       <module name="m1" options="-parameters" />
       <module name="m2" options="-parameters" />
       <module name="m3" options="-parameters" />
       <module name="m4" options="-parameters" />
+      <module name="m5" options="-parameters" />
+      <module name="mvc" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="root" options="" />
       <module name="springsecurity" options="-parameters" />
