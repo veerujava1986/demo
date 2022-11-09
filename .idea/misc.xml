@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/jetty-server-demo/pom.xml" />
         <option value="$PROJECT_DIR$/Singleton-threadsafe/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-producer-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/CircuitBreakerPattren-Hystrix/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

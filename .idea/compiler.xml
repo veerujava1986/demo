@@ -8,19 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="keycloak" />
+        <module name="hystrix" />
         <module name="m1" />
         <module name="m2" />
         <module name="SpringDataJPA_H2-Database" />
         <module name="m3" />
         <module name="m4" />
         <module name="m5" />
-        <module name="EurekaClient" />
         <module name="jetty-server-demo" />
         <module name="springsecurity" />
         <module name="authorizationserver" />
         <module name="kafka-producer-springboot" />
         <module name="ssl" />
-        <module name="eurekaserver" />
+        <module name="Threads-TO-CompletableFeauture" />
         <module name="JWTReaderdemo" />
         <module name="Temporary" />
         <module name="Mockito" />
@@ -35,6 +35,8 @@
     <bytecodeTargetLevel>
       <module name="AnnotationsExamples" target="1.8" />
       <module name="api" target="1.8" />
+      <module name="EurekaClient" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
       <module name="jwt" target="1.8" />
       <module name="JWTReader" target="1.8" />
       <module name="mvc" target="1.8" />
@@ -53,10 +55,12 @@
       <module name="Singleton-threadsafe" options="-parameters" />
       <module name="SpringDataJPA_H2-Database" options="-parameters" />
       <module name="Temporary" options="-parameters" />
+      <module name="Threads-TO-CompletableFeauture" options="-parameters" />
       <module name="api" options="-parameters" />
       <module name="authorizationserver" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feignclient" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
       <module name="jetty-server-demo" options="-parameters" />
       <module name="jwt" options="-parameters" />
       <module name="kafka-producer-springboot" options="-parameters" />

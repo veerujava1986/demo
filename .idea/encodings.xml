@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/AnnotationsExamples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CircuitBreakerPattren-Hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Eureka-Client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Eureka-Client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Eureka-Server/src/main/java" charset="UTF-8" />
@@ -17,6 +18,7 @@
     <file url="file://$PROJECT_DIR$/SpringDataJPA_H2-Database/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringDataJPA_H2-Database/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Temporary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Threads-TO-CompletableFeauture/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/authorizationserver/src/main/java" charset="UTF-8" />
