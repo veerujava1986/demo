@@ -8,18 +8,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="keycloak" />
+        <module name="REST-Api-with-Designpattersn" />
+        <module name="SpringDataJPA_H2-Database" />
+        <module name="jetty-server-demo" />
+        <module name="springsecurity" />
+        <module name="kafka-producer-springboot" />
+        <module name="ssl" />
+        <module name="resttemplate" />
+        <module name="Actuator" />
         <module name="hystrix" />
         <module name="m1" />
         <module name="m2" />
-        <module name="SpringDataJPA_H2-Database" />
         <module name="m3" />
         <module name="m4" />
         <module name="m5" />
-        <module name="jetty-server-demo" />
-        <module name="springsecurity" />
+        <module name="SpringBoot-Profiles" />
         <module name="authorizationserver" />
-        <module name="kafka-producer-springboot" />
-        <module name="ssl" />
         <module name="Threads-TO-CompletableFeauture" />
         <module name="JWTReaderdemo" />
         <module name="Temporary" />
@@ -28,7 +32,6 @@
         <module name="HttpClient" />
         <module name="Singleton-threadsafe" />
         <module name="Java-8-features" />
-        <module name="resttemplate" />
         <module name="feignclient" />
       </profile>
     </annotationProcessing>
@@ -44,6 +47,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Actuator" options="-parameters" />
       <module name="AnnotationsExamples" options="-parameters" />
       <module name="EurekaClient" options="-parameters" />
       <module name="GateWay" options="-parameters" />
@@ -52,7 +56,9 @@
       <module name="JWTReaderdemo" options="-parameters" />
       <module name="Java-8-features" options="-parameters" />
       <module name="Mockito" options="-parameters" />
+      <module name="REST-Api-with-Designpattersn" options="-parameters" />
       <module name="Singleton-threadsafe" options="-parameters" />
+      <module name="SpringBoot-Profiles" options="-parameters" />
       <module name="SpringDataJPA_H2-Database" options="-parameters" />
       <module name="Temporary" options="-parameters" />
       <module name="Threads-TO-CompletableFeauture" options="-parameters" />

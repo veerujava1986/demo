@@ -27,6 +27,9 @@
         <option value="$PROJECT_DIR$/Singleton-threadsafe/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-producer-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/CircuitBreakerPattren-Hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/Actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/REST-Api-with-Designpattersn/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-Profiles/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

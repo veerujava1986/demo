@@ -6,8 +6,7 @@ RUN yum -y install python-pip && \
     cd Python-3.9.6 && \
     ./configure --enable-optimizations && \
     make altinstall && \
-    cd /usr/bin
-    #rm python && \
-    #cd /usr/local/bin
-    #ln -s python3.9 python
+    sed -i "s|python|python2|g" /usr/bin/yum && \
+    rm /usr/bin/python && \
+    ln -s /usr/local/bin/python3.9 /usr/bin/python
 CMD /bin/bash

@@ -6,8 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Data
 @Entity
@@ -17,7 +16,12 @@ import javax.persistence.Id;
 public class Employee {
 
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private int id;
     private String name;
     private int salary;
+
+    @OneToOne(targetEntity = Address.class,cascade = CascadeType.ALL)
+    private Address address;
+
 }

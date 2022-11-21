@@ -1,0 +1,5 @@
+add dependency:-
+<artifactId>spring-boot-starter-actuator</artifactId>
+
+initially exposed endpoint:-
+http://localhost:8080/actuator

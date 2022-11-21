@@ -1,0 +1,20 @@
+REST API Design Best Practices
+	1. Use Nouns for Resource Identification
+	2. Use Plural Nouns to Name a Resource
+	3. Use Proper HTTP Headers for Serialization Formats
+	4. Get Method and Query Parameters Should Not Alter the State
+	5. Use Sub-Resources for Relations
+	6. Use Proper HTTP Methods
+	7. HTTP Response Status Codes
+	8. Field Name Casing Convention
+	9. Searching, Sorting, Filtering, and Pagination
+	10. Restful API Versioning
+	11. Accept and respond with JSON
+	12. Use nouns instead of verbs in endpoint paths
+	13. Name collections with plural nouns
+	14. Nesting resources for hierarchical objects
+	15. Handle errors gracefully and return standard error codes
+	16. Allow filtering, sorting, and pagination
+	17. Maintain Good Security Practices
+	18. Cache data to improve performance
+    19. Versioning our APIs

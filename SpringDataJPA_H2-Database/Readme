@@ -1,3 +1,8 @@
+H2 database url:-    http://localhost:8080/h2
+user/pass-->
+
+
+
 need to add @Component annotation on runner class
 
 need to add noargument constructor into entity class

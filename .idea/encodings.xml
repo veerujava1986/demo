@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Actuator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AnnotationsExamples/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CircuitBreakerPattren-Hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Eureka-Client/src/main/java" charset="UTF-8" />
@@ -14,7 +16,11 @@
     <file url="file://$PROJECT_DIR$/JWTReaderdemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-8-features/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Mockito/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/REST-Api-with-Designpattersn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/REST-Api-with-Designpattersn/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Singleton-threadsafe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-Profiles/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-Profiles/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringDataJPA_H2-Database/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringDataJPA_H2-Database/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Temporary/src/main/java" charset="UTF-8" />
