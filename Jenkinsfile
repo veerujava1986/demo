@@ -4,7 +4,7 @@ stages {
  stage('Deploy dev') {
 
          agent {
-           kubernetes {
+           any {
                  containerTemplate {
                    name 'helm'
                    image 'lachlanevenson/k8s-helm:v3.1.1'
