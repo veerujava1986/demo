@@ -17,6 +17,7 @@ stages {
             steps {
                container('helm') {
                  sh "helm upgrade full-cover ./helm"
+                 echo 'Building..XXXXXxxxxxxxxxxxxx'
                }
              }
         }
